@@ -1,0 +1,251 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+body {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	height: 3800px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: Azure;
+}
+
+body:not(.container) {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	background-color: #f8f8f8;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0.95;
+}
+
+.container {
+	position: relative;
+	top: 30px;
+	width : 100%;
+	text-align: center;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 2px 10px;
+}
+
+.nav ul {
+	width: 50%;
+	text-align: left;
+	float: left;
+	position: relative;
+	left: 100px;
+	padding: 10px;
+}
+
+.phone p {
+	width: 50%;
+	text-align: right;
+	float:left;
+	padding: 10px 40px;
+}
+
+.front {
+	position: relative;
+	height: 700px;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(front-pic.jpg);
+	background-size: cover;
+	background-repeat: round;
+	font-family: 'Merriweather', serif;
+	text-shadow: 3px 3px 3px black;
+	font-style: italic;
+}
+
+.front h1{
+	position: relative;
+	color: white;
+	top: 30%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 4em;
+}
+
+.front h3{
+	position: absolute;
+	color: white;
+	top: 40%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.front h4 {
+	position: absolute;
+	color: white;
+	top: 70%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+footer {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 300px;
+	bottom: 0;
+	background-color: #040c27;
+	text-align: center;
+	color: Azure;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.footerend {
+	border-top: 1px solid white;
+	position: relative;
+	bottom: -210px;
+	padding: 0;
+	margin: 0 300px;
+}
+
+.popular {
+	margin: 0 250px;
+	height: 250px;
+}
+
+.popular h1 {
+	position: relative;
+	color: black;
+	width: 100%;
+	top: 70px;
+}
+.popular p {
+	position : relative;
+	top: 100px;
+}
+
+.countries {
+	border-radius: 8px;
+	
+}
+
+.destinations {
+	margin: 0 300px;
+	line-height: 0;
+	padding: 0 50px;
+}
+
+.dest {
+	display: inline-flex;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	line-height: 0;
+	margin: 10px;
+	transition: top 0.3s;
+	top: 0;
+}
+
+.dest h4 {
+	position: relative;
+	color: AntiqueWhite;
+	right: 260px;
+	top: 150px;
+	font-size: 22px;
+}
+
+.dest:hover {
+	position: relative;
+	top: -10px;
+
+}
+
+.whereto {
+	background-color: #38475d;
+	width: 100%;
+	height:100px;
+	margin:40px 0;
+	padding: 20px;
+}
+
+
+.where h3, input, select{
+	display: inline-block;
+	padding: 10px;
+	margin : 5px;
+
+}
+
+.where input {
+	border-radius: 7px;
+}
+
+.where h3 {
+	color: white;
+}
+
+.button {
+	position: relative;
+	left: 30px;
+ 	transition: 0.3s;
+ 	background-color: #1aecae;
+ 	border-color: #1aecae;
+ 	width: 7%;
+}
+
+.button:hover {
+	border-color: #FF4A52;
+    background: #FF4A52;
+    box-shadow: 0px 0px 1px #777;
+}
+
+.rowcontainer {
+	display: inline-flex;
+	margin: 150px 300px;
+}
+
+.row {
+	margin: 0 30px;
+	float: left;
+}
+
+.quotescontainer {
+	background-color: #C7EDE0;
+	height: 400px;
+	width: 100%;
+	padding: 50px 0px;
+	line-height: 50px;
+}
+
+.portait img {
+	border-radius: 50%;
+}
+
+.video {
+	width: 100%;
+}
+
+.video video {
+	object-fit: fill;
+	width: 100%;
+}
